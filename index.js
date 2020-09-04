@@ -33,6 +33,7 @@ const [moo, neigh, baa, oink, cluck] = 'cow horse sheep pig chicken'.split(' ');
 const [Bessie, ,Dolly, Babe, Little] = 'cow horse sheep pig chicken'.split(' ');
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
 const [black_and_white, ,black, pink, ] = 'cow horse sheep pig chicken'.split(' ');
+
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
@@ -41,6 +42,7 @@ const [red, orange, yellow, green, blue, indigo, violet] = colors;
 const [ r, o, y, g, b, ,v] = colors;
 // 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
 const [ , , , , , indg, ] = colors;
+
 // Objects
 
 // 7. Use destructuring to assign all appropriate variables using the keys as the variable names
