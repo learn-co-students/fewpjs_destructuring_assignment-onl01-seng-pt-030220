@@ -122,7 +122,7 @@ const dogsName = 'Sir Woody BarksALot'
 const [title, ,lastName] = 'Sir Woody BarksALot'.split(' ')
 console.log(title, lastName) // Sir BarksALot
 ```
-
+ 
 ## Instructions
 
 We are going to give you several `String`s, `Array`s, and `Object`s and you're
